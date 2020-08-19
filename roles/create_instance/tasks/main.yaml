@@ -3,9 +3,6 @@
     name: "{{ ELBNAME }}"
     state: present
     region: us-west-2
-    zones:
-      - us-west-2b
-      - us-west-2a
     subnets:
       - subnet-0799483d066d3f31e
       - subnet-0eb35a0abae60f0a2
