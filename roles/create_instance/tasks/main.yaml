@@ -6,6 +6,9 @@
     zones:
       - us-west-2a
       - us-west-2b
+    subnets:
+      - subnet-0799483d066d3f31e
+      - subnet-0eb35a0abae60f0a2
     listeners:
       - protocol: http
         load_balancer_port: 80
