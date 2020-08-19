@@ -4,7 +4,6 @@
     state: present
     region: us-west-2
     zones:
-      - us-west-2a
       - us-west-2b
     subnets:
       - subnet-0799483d066d3f31e
