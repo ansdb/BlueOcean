@@ -3,13 +3,15 @@
     name: "{{ ELBNAME }}"
     state: present
     region: us-west-2
-    vpc_id: vpc-08f5ae1a14111bdc5
     zones:
       - us-west-2b
       - us-west-2a
     subnets:
       - subnet-0799483d066d3f31e
       - subnet-0eb35a0abae60f0a2
+    security_group_ids:
+      - sg-0b75196a74c213b25
+      - sg-0f5fdf29215f5a64d
     listeners:
       - protocol: http
         load_balancer_port: 80
