@@ -21,8 +21,7 @@
     image: ami-003634241a8fcdec0
     user_data: "{{ USERDATA }}"
     region: us-west-2
-    vpc_subnet_id: 
-      - subnet-0799483d066d3f31e
+    vpc_subnet_id: subnet-0799483d066d3f31e
     group_id:
       - sg-07d62e2a493f6f870
       - sg-04d341b663dd74c64
