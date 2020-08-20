@@ -7,7 +7,6 @@
       - subnet-0799483d066d3f31e
       - subnet-0eb35a0abae60f0a2
     security_group_ids:
-      - sg-07d62e2a493f6f870
       - sg-04d341b663dd74c64
     listeners:
       - protocol: http
