@@ -3,6 +3,7 @@
     name: "{{ ELBNAME }}"
     state: present
     region: us-west-2
+    path: /
     subnets:
       - subnet-0799483d066d3f31e
     security_group_ids:
